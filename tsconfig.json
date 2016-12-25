@@ -3,7 +3,7 @@
         "target": "es5",
         "module": "commonjs",
         "moduleResolution": "node",
-        "sourceMap": true,
+        "sourceMap": false,
         "emitDecoratorMetadata": true,
         "experimentalDecorators": true,
         "removeComments": false,
@@ -11,7 +11,8 @@
         "suppressImplicitAnyIndexErrors": true,
         "typeRoots": [
             "./node_modules/@types/"
-        ]
+        ],
+        "outDir": "dist/app"
     },
     "compileOnSave": true,
     "exclude": [
